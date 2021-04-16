@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ff9a07 url(../img/20888-azul-claro.jpg) repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px
+    colorrgb(53, 12, 12)f;
+    width: 100%;
+}
+header¨{
+    overflow: hidden;
+    width: 800px;
+    margin: 10px auto 5px auto;
+}
+header #banner{
+    width: 100%;
+    height: 150px;
+}
+header #banner  #imagenbanner{
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    height: 250px;
+    background: url(../img/333.jpg);
+    border-radius: 10px;
+}
+header #menu{
+    float: right;
+    padding: 5px 0;
+    width: 550px;
+}
+header #menu ul li{
+    list-style: none;
+    float: left;
+}
+header #menu ul li{
+    display: block;
+    margin-left: 5px;
+    padding: 7px;
+    text-decoration: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+}
+header #menu ul li a:hover, header #menu .pag-actual{
+    text-decoration:white;
+    background-color: #035968;
+    border: radius 5px;
+    color: white;
+}
+section{
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+section #contenedor{
+    overflow: hidden;
+    width: 800px;
+    margin: 0px auto 5px auto;
+} 
+section #contenedor aside{
+    float: left;
+    width: 220px;
+}
+section #contenedor aside h2{
+    padding: 0px 0px 20px 0px;
+    color: white;
+    letter-spacing: -1px;
+    font-size: 18px;
+}
+section #contenedor aside ul li{
+    list-style: none;
+    padding: 15px 0px;
+    border: 2px dashed gray;
+} 
+section #contenedor aside ul li a{
+    text-decoration: none;
+    color: #178282;
+    font-size: 19px;
+}
+section #contenedor article{
+    float: right;
+    width: 570px;
+}
+section #contenedor article h2{
+    color: #05434e;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 5px;
+}
+section #contenedor article .contenido{
+    text-align: justify;
+    font-size: 16px;
+    padding: 5px;
+    line-height: 150%;
+}
+section #contenedor article .contenido .alin-izq{
+    float: left;
+    margin: 10px 10px 5px 0px;
+}
+footer{
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+footer{
+    font-size: 20px;
+    color: #05434e;
+    text-align: center;
+    line-height: 150%;
+}
